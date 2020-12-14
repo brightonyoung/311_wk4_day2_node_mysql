@@ -37,7 +37,7 @@ This function is done for us. Notice the SQL statement retrieving all the rows f
 
 ### getUserById
 
-The route is going to look like this: http://localhost:4001/users/389
+The route is going to look like this: http://localhost:3306/users/389
 
 Where 389 is the `:id` parameter in the route. Our job is to select just the row that matches that id and return it. Write a SELECT statement WHERE id = the req param id
 
@@ -45,7 +45,7 @@ Look at the following line where it says `mysql.format()`. What do you think goe
 
 ### createUser
 
-The route is going to look like this: http://localhost:4001/users/
+The route is going to look like this: http://localhost:3306/users/
 
 We are going to need to use Postman to access this route since it is now a POST request. 
 

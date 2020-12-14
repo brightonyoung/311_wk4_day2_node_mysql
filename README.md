@@ -21,7 +21,7 @@ Finally, in MySQL Workbench, run the `initialize.sql` script that is included in
 
 ## Overview
 
-The routes/controllers and basic setup has been done for us. Our job is now to complete the queries in `controllers/users.js`. There are five different controller functions and the first one has been done for us. We should be able to see this by navigating to: http://localhost:4001/users/ 
+The routes/controllers and basic setup has been done for us. Our job is now to complete the queries in `controllers/users.js`. There are five different controller functions and the first one has been done for us. We should be able to see this by navigating to: http://localhost:3306/users/ 
 
 Keep in mind that your port (4001) may be different.
 
@@ -64,7 +64,7 @@ Again we will need to figure out what goes in the brackets
 
 ### updateUserById
 
-The route is going to look like this: http://localhost:4001/users/234
+The route is going to look like this: http://localhost:3306/users/234
 
 Which is similar to the GET about but this time it is a PUT. We will need to use Postman again to make this work. 
 
@@ -81,7 +81,7 @@ Write a SQL statement to UPDATE users SET fields = values WHERE id = req param i
 
 ### deleteUserByFirstName
 
-This route will look like this: http://localhost:4001/users/bogus
+This route will look like this: http://localhost:3306/users/bogus
 
 But it will be using the DELETE protocol so again we will need to use Postman to achieve this.
 
